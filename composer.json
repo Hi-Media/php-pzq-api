@@ -1,0 +1,22 @@
+{
+    "name": "hi-media/php-pzq-api",
+    "description": "API for PZQ, a persistent store daemon by Mikko Koppanen which uses the ZeroMQ messaging socket library.",
+    "license": "LGPL v3",
+
+    "authors": [
+        {
+            "name": "Vincent Chabot",
+            "email": "vchabot@hi-media.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.2"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "HIM\\": "src/"
+        }
+    }
+}
