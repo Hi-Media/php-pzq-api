@@ -3,13 +3,13 @@ php-pzq-api
 
 PHP API for PZQ, a persistent store daemon by Mikko Koppanen which uses the ZeroMQ messaging socket library.
 
-### Installing via Composer
+## Installing via Composer
 
 The recommended way to install PHP PZQ API is through
 [Composer](http://getcomposer.org).
 
 ```bash
-# Install Composer
+### Install Composer
 curl -sS https://getcomposer.org/installer | php
 ```
 
@@ -29,9 +29,9 @@ After installing, you need to require Composer's autoloader:
 require 'vendor/autoload.php';
 ```
 
-### Usage
+## Usage
 
-# Consumer usage
+### Consumer usage
 
 ```php
 $context = new \ZMQContext();
@@ -47,7 +47,7 @@ for ($i = 0; $i < 10000; $i++) {
 sleep (5);
 ```
 
-# Producer usage
+### Producer usage
 
 ```php
 $context = new \ZMQContext();
@@ -64,7 +64,7 @@ for ($i = 0; $i < 10000; $i++) {
 }
 ```
 
-# Monitor usage
+### Monitor usage
 
 ```php
 $m = new \HIM\PZQ\Monitor("ipc:///tmp/pzq-monitor");
