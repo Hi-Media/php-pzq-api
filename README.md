@@ -20,7 +20,7 @@ Next, update your project's composer.json file to include:
 ```javascript
 {
     "require": {
-        "hi-media/php-pzq-api": "~0.1.1"
+        "hi-media/php-pzq-api": "1.*"
     }
 }
 ```
@@ -72,3 +72,13 @@ for ($i = 0; $i < 10000; $i++) {
 $m = new \HIM\PZQ\Monitor("ipc:///tmp/pzq-monitor");
 var_dump($m->getStats());
 ```
+
+## Copyrights & licensing
+Licensed under the GNU Lesser General Public License v3 (LGPL version 3).
+See [LICENSE](LICENSE) file for details.
+
+## Change log
+See [CHANGELOG](CHANGELOG.md) file for details.
+
+## Git branching model
+The git branching model used for development is the one described and assisted by `twgit` tool: [https://github.com/Twenga/twgit](https://github.com/Twenga/twgit).
