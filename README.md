@@ -3,6 +3,8 @@ php-pzq-api
 
 PHP API for PZQ, a persistent store daemon by Mikko Koppanen which uses the ZeroMQ messaging socket library.
 
+[![Latest stable version](https://poser.pugx.org/himedia/php-pzq-api/v/stable.png "Latest stable version")](https://packagist.org/packages/himedia/php-pzq-api)
+
 This is an implementation from the [php-api](https://github.com/mkoppanen/pzq/blob/master/php-api/PZQClient.php) provided by [@mkoppanen](https://github.com/mkoppanen).
 
 ## Installing via Composer
@@ -20,7 +22,7 @@ Next, update your project's composer.json file to include:
 ```javascript
 {
     "require": {
-        "hi-media/php-pzq-api": "1.*"
+        "himedia/php-pzq-api": "1.*"
     }
 }
 ```
