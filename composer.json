@@ -1,5 +1,5 @@
 {
-    "name": "hi-media/php-pzq-api",
+    "name": "himedia/php-pzq-api",
     "description": "API for PZQ, a persistent store daemon by Mikko Koppanen which uses the ZeroMQ messaging socket library.",
     "license": "LGPL v3",
 
