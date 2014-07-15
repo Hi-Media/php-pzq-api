@@ -3,6 +3,8 @@ php-pzq-api
 
 PHP API for PZQ, a persistent store daemon by Mikko Koppanen which uses the ZeroMQ messaging socket library.
 
+This is an implementation from the [php-api](https://github.com/mkoppanen/pzq/blob/master/php-api/PZQClient.php) provided by [@mkoppanen](https://github.com/mkoppanen).
+
 ## Installing via Composer
 
 The recommended way to install PHP PZQ API is through
